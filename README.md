@@ -13,7 +13,7 @@ Steps:
   pip install pyasn
 2. Download pfx2as file from CAIDA
 3. Generate the mapping db file
-4 Usage
+4. Usage
   import pyasn
   asndb = pyasn.pyasn('ipasn.dat')
   asndb.lookup('8.8.8.8')  # should return: (15169, '8.8.8.0/24'), the origin AS, and the BGP prefix it matches
