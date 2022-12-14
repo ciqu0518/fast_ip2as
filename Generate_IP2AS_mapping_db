@@ -3,6 +3,7 @@ from gzip import GzipFile
 import os
 from pyasn import mrtx, __version__
 
+
 def open_archive(fpath):
     """Open a bz2 or gzip archive."""
     # Thanks to Chris poliquin for this method (https://github.com/poliquin)
